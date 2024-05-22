@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Presença</title>
+    <link rel="stylesheet" href="presenca.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registro de Presença</h2>
+        <form id="attendanceForm">
+            
+            <label for="room">Sala:</label>
+            <select id="room" required>
+                <option value="">Selecione a sala</option>
+                <option value="salaA">Sala A</option>
+                <option value="salaB">Sala B</option>
+                <option value="salaC">Sala C</option>
+            </select>
+            <label for="studentName">Nome do Aluno:</label>
+            <input type="text" id="studentName" required>
+           
+            <button type="submit">Registrar Presença</button>
+        </form>
+        <div id="attendanceMessage"></div>
+        <div id="studentList"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

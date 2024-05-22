@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório - Projeto Integrador Alfa</title>
+    <link rel="stylesheet" href="relatorio.css">
+</head>
+<body>
+    <header>
+        <h1>Projeto Integrador: Alfa</h1>
+        <nav>
+            <ul>
+                <li><a href="\TelaHome\home.html">Home</a></li>
+                <li><a href="presenca.html">Presença</a></li>
+                <li><a href="relatorio.html">Relatório</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <h2>Relatório de Frequência por Sala</h2>
+            <label for="roomReport">Selecione uma Sala:</label>
+            <select id="roomReport">
+                <option value="">Selecione uma sala</option>
+                <option value="Sala A">Sala A</option>
+                <option value="Sala B">Sala B</option>
+                <option value="Sala C">Sala C</option>
+            </select>
+            <div id="reportMessage"></div>
+            <div id="studentReportList"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Projeto Alfa. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

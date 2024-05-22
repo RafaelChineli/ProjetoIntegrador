@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background: #191970;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+header nav {
+    margin-top: 0.5rem;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    padding: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container {
+    text-align: center;
+}
+
+select {
+    padding: 8px;
+    margin: 5px;
+    font-size: 1rem;
+}
+
+#reportMessage {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#studentReportList {
+    margin-top: 20px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #191970;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: none;
+    padding-left: 1rem;
+}
+
+ul li {
+    background: #191970;
+    color: white;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+footer {
+    background: #191970;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+}
