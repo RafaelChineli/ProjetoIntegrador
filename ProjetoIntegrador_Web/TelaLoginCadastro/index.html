@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="content first-content">
+            <div class="first-column">
+                <h2 class="title title-primary">Bem-Vindo!</h2>
+                <p class="description description-primary">Projeto Integrador- ALFA</p>
+                <button id="signin" class="btn btn-primary">sign in</button>
+            </div>    
+            <div class="second-column">
+                <h2 class="title title-second">criar conta</h2>
+                <form id="signup-form" class="form">
+                    <label class="label-input" for="signup-name">
+                        <i class="far fa-user icon-modify"></i>
+                        <input id="signup-name" type="text" placeholder="Nome">
+                    </label>
+                    
+                    <label class="label-input" for="signup-email">
+                        <i class="far fa-envelope icon-modify"></i>
+                        <input id="signup-email" type="email" placeholder="Email">
+                    </label>
+                    
+                    <label class="label-input" for="signup-password">
+                        <i class="fas fa-lock icon-modify"></i>
+                        <input id="signup-password" type="password" placeholder="senha">
+                    </label>
+                    
+                    <button type="button" id="signup-submit" class="btn btn-second">sign up</button>        
+                </form>
+            </div>
+        </div>
+        <div class="content second-content">
+            <div class="first-column">
+                <h2 class="title title-primary">Olá,colaborador!</h2>
+                <p class="description description-primary">Projeto Integrador- ALFA</p>
+                <button id="signup" class="btn btn-primary">sign up</button>
+            </div>
+            <div class="second-column">
+                <h2 class="title title-second">Entrar na conta</h2>
+                <form id="signin-form" class="form">
+                    <label class="label-input" for="signin-email">
+                        <i class="far fa-envelope icon-modify"></i>
+                        <input id="signin-email" type="email" placeholder="Email">
+                    </label>
+                
+                    <label class="label-input" for="signin-password">
+                        <i class="fas fa-lock icon-modify"></i>
+                        <input id="signin-password" type="password" placeholder="Password">
+                    </label>
+                
+                    <a class="password" href="#">forgot your password?</a>
+                    <button type="button" id="signin-submit" class="btn btn-second">sign in</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
